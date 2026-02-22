@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>2026年部分考生初试成绩查询</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Microsoft Yahei", Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f8f8f8;
+      font-size: 16px;
+      color: #333;
+    }
+
+    /* 容器适配 */
+    .container {
+      max-width: 100%;
+      margin: 0 auto;
+      background-color: #fff;
+      min-height: 100vh;
+    }
+
+    /* 顶部导航栏 - 还原研招网原版样式 */
+    .header-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 15px;
+      background-color: #fff;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    /* 研招网LOGO - 图片形式 */
+    .yzw-logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+    }
+
+    /* 图片形式LOGO - 适配手机 */
+    .logo-img {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+    }
+
+    .logo-text {
+      font-size: 20px;
+      font-weight: 700;
+      color: #0066cc;
+      letter-spacing: 0.8px;
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+    }
+
+    /* 右上角图标 - 还原研招网原版 */
+    .header-icons {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    /* 通用图标样式（适配图片） */
+    .icon-item {
+      width: 24px;
+      height: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* 图片图标专属样式 */
+    .icon-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+
+    /* 蓝色标题通栏 - 渐变+原版文字 */
+    .blue-banner {
+      background: linear-gradient(to right, #0088cc, #0066cc);
+      color: #fff;
+      padding: 15px 10px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+
+    /* 招生单位说明栏 */
+    .notice {
+      background-color: #fff9e6;
+      padding: 12px 15px;
+      color: #666;
+      font-size: 14px;
+      line-height: 1.6;
+      border-bottom: 1px solid #eee;
+    }
+
+    .notice a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+    /* 成绩信息列表 - 原版间距+样式 */
+    .info-list {
+      background-color: #fff;
+    }
+
+    .info-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 15px 15px;
+      border-bottom: 1px solid #f0f0f0;
+      font-size: 16px;
+    }
+
+    .info-item .label {
+      color: #333;
+      font-weight: 400;
+    }
+
+    .info-item .value {
+      color: #666;
+      text-align: right;
+      flex: 1;
+      margin-left: 10px;
+    }
+
+    /* 底部提示文字 */
+    .footer-tip {
+      padding: 15px;
+      color: #999;
+      font-size: 13px;
+      line-height: 1.5;
+      background-color: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- 顶部导航栏（图片LOGO） -->
+    <div class="header-bar">
+      <a href="#" class="yzw-logo">
+        <!-- 研招网LOGO图片（和html同文件夹） -->
+        <img src="index (1).png" class="logo-img" alt="研招网LOGO">
+        <span class="logo-text">研招网</span>
+      </a>
+      <div class="header-icons">
+        <!-- 左侧：镂空用户图标（图片形式） -->
+        <div class="icon-item">
+          <img src="index (2).png" class="icon-img" alt="个人中心">
+        </div>
+        <!-- 右侧：菜单图标（也可改为图片，保留字符仅作示例） -->
+        <div class="icon-item">
+          <img src="index (3).png" class="icon-img" alt="菜单">
+        </div>
+      </div>
+    </div>
+
+    <!-- 蓝色标题通栏 -->
+    <div class="blue-banner">2026年部分考生初试成绩查询</div>
+
+    <!-- 招生单位说明 -->
+    <div class="notice">
+      招生单位说明：申请成绩复查请关注我校研究生招生信息网通知<a href="https://yzw.zjnu.edu.cn/">https://yzw.zjnu.edu.cn/</a>
+    </div>
+
+    <!-- 成绩信息列表 -->
+    <div class="info-list">
+      <div class="info-item">
+        <span class="label">姓名</span>
+        <span class="value">冯士洋</span>
+      </div>
+      <div class="info-item">
+        <span class="label">报名号</span>
+        <span class="value">322296582</span>
+      </div>
+      <div class="info-item">
+        <span class="label">准考证号</span>
+        <span class="value">103455210009794</span>
+      </div>
+      <div class="info-item">
+        <span class="label">总分</span>
+        <span class="value">245</span>
+      </div>
+      <div class="info-item">
+        <span class="label">第一门</span>
+        <span class="value">(101)思想政治理论：53</span>
+      </div>
+      <div class="info-item">
+        <span class="label">第二门</span>
+        <span class="value">(204)英语（一）：43</span>
+      </div>
+      <div class="info-item">
+        <span class="label">第三门</span>
+        <span class="value">(302)数学（二）：96</span>
+      </div>
+      <div class="info-item">
+        <span class="label">第四门</span>
+        <span class="value">(408)计算机学科专业基础：60</span>
+      </div>
+      <div class="info-item">
+        <span class="label">备注</span>
+        <span class="value">无</span>
+      </div>
+    </div>
+
+    <!-- 底部提示 -->
+    <div class="footer-tip">
+      本系统所有数据均为招生单位提供，招生单位对查询结果负责解释
+    </div>
+  </div>
+</body>
+
+</html>
